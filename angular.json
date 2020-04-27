@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ErnarOnlineShop"
+    }
+  },
+  "defaultProject": "ErnarOnlineShop",
+  "cli": {
+    "analytics": false
+  }
 }

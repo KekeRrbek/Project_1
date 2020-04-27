@@ -5,6 +5,7 @@ import {UsersComponent} from './users/users.component';
 import {UserDetailComponent} from './user-detail/user-detail.component';
 import {TwitsComponent} from './twits/twits.component';
 import {TwitDetailComponent} from './twit-detail/twit-detail.component';
+import {LoginComponent} from './login/login.component'
 
 const routes: Routes = [
   { path: '', redirectTo: '/users', pathMatch: 'full'},
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'users/:user_id/twits', component: TwitsComponent },
   {path: 'twits', component: TwitsComponent},
   { path: 'twits/:twit_id', component: TwitDetailComponent },
+  { path: 'login', component:LoginComponent}
 ];
 
 @NgModule({

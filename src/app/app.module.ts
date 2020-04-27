@@ -8,6 +8,7 @@ import { UsersComponent } from './users/users.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { AppRoutingModule } from './app-routing.module';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     TwitsComponent,
     TwitDetailComponent,
     UsersComponent,
-    UserDetailComponent
+    UserDetailComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
